@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--link css and javascript files in head.jade-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe: Take your best shot!</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<!--link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')-->
+	<!-- if lt IE 9script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+		script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="js/require.js" data-main="js/main.js"></script>
+</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<h1>Tic Tac Toe</h1>
+					<h2>Take your best shot! I don't lose!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div id="select" class="col-md-offset-4 col-md-4 text-center">
+					<h3>Choose your side</h3>
+					<h4><i class="fa fa-close"></i> goes first</h4>
+					<div id="x" class="player col-md-4 col-md-offset-1">
+						<i class="fa fa-close fa-3x"></i>
+					</div>
+					<div id="o" class="player col-md-4 col-md-offset-2">
+						<i class="fa fa-circle-o fa-3x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="board" class="col-md-6 col-md-offset-3 text-center">
+					<div id="topleft" class="col-xs-4 empty"></div>
+					<div id="top" class="col-xs-4 empty"></div>
+					<div id="topright" class="col-xs-4 empty"></div>
+					<div id="left" class="col-xs-4 empty"></div>
+					<div id="center" class="col-xs-4 empty"></div>
+					<div id="right" class="col-xs-4 empty"></div>
+					<div id="bottomleft" class="col-xs-4 empty"></div>
+					<div id="bottom" class="col-xs-4 empty"></div>
+					<div id="bottomright" class="col-xs-4 empty"></div>
+				</div>
+			</div>
+		</div>

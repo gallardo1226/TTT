@@ -1,0 +1,80 @@
+body, .again {
+	background: #709D76;
+	color: #A94E93;
+}
+
+#select {
+	background: #FFF;
+	display: none;
+}
+
+.player {
+	background: #C57FD0;
+}
+
+#select {
+	background: #7FD0B9;
+}
+
+.player, #select {
+	border: 1px solid #AA4F92;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 15px;
+}
+
+.player:hover, .again:hover {
+	border: 2px double #C57FD0;
+	background: #82DEFF;
+	cursor: pointer;
+}
+
+#end {
+	background: #7FD0B9;
+	display: none;
+	height: 149px;
+	border-radius: 20px;
+}
+
+#board {
+	background: #11372C;
+	display: none;
+	border: 1px solid #C57FD0;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 20px;
+}
+
+#board div {
+	border: 1px solid #C57FD0;
+}
+
+#board .col-xs-4 {
+	background: #82DEFF;
+}
+
+#board .empty:hover {
+	background: #C57FD0;
+	cursor: pointer;
+	border: 1px solid #AA4F92;
+}
+
+#board i {
+	margin-top: 25%;
+}
+
+#topleft {
+	border-top-left-radius: 20px;
+}
+
+#topright {
+	border-top-right-radius: 20px;
+}
+
+#bottomleft {
+	border-bottom-left-radius: 20px;
+}
+
+#bottomright {
+	border-bottom-right-radius: 20px;
+}
